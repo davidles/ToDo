@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "password": "Je01.Ca13",
+    "database": "todo-db",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
