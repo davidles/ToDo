@@ -1,4 +1,88 @@
+:root{
+  --primary-color: rgb(29, 29, 233);
+  --lightgrey-color: rgb(206, 205, 205);
+  --black-color: rgb(28, 28, 28);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--black-color);
+  color: aliceblue;
+}
+
 .App {
+  width: 100vw;padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.App h1{
   text-align: center;
 }
+
+section{
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article.post{
+  background-color: rgb(49, 49, 49);
+  line-height: 24px;
+  width: 100%;
+  max-width: 520px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid transparent;
+  transition: all 1.3s;
+}
+
+article.post:hover{
+  border: 2px solid white;
+}
+
+article.post p{
+  margin-top: 10px;
+  background-color: rgb(84, 84, 84);
+  padding: 10px;
+  /* border-radius: 5px; */
+}
+
+article.post div.header h4{
+  font-weight: lighter;
+  color: rgb(180, 179, 179);
+}
+
+article.post button{
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid white;
+  /* border-radius: 5px; */
+  transition: all 1.3s;
+}
+
+article.post button:hover{
+  background-color: rgb(11, 90, 11);
+  /* border: 1px solid var(--lightgrey-color); */
+  border: 1px solid rgb(11, 90, 11);
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  color: white;
+  border-radius: 5px;
+
+}
+
+
+
 
